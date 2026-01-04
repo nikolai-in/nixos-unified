@@ -17,6 +17,7 @@ order: 100
 - Use `sudo` when activating with nix-darwin (#130)
 - Fix `nix copy` command for legacy NixOS systems by adding experimental features flag (#138)
 - Switch to runCommand since runCommandNoCC is dropped in newer nixpkgs (#147)
+- Fix autowired packages to respect `meta.platforms` and `meta.badPlatforms` to avoid exposing platform-incompatible packages
 
 ## 0.2.0 (2024-10-03)
 
